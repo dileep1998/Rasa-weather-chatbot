@@ -14,10 +14,10 @@ import psycopg2
 conn = psycopg2.connect(database = "exam", user = "postgres", password = "1234", host = "localhost", port = "5432")
 cur = conn.cursor()
 
-class ActionHelloWorld(Action):
+class ActionWeather(Action):
 
      def name(self) -> Text:
-         return "action_hello_world"
+         return "action_weather"
 
      def run(self, dispatcher: CollectingDispatcher,
              tracker: Tracker,
