@@ -1,4 +1,4 @@
-intents:
+hintents:
   - greet
   - bye
   - weather
@@ -13,12 +13,12 @@ slots:
 
 actions:
 - utter_greet
-- action_hello_world
+- action_weather
 - utter_goodbye
 
 templates:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey! How can i help you?"
 
 
   utter_goodbye:
